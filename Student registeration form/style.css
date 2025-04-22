@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincontainer {
+    border: solid black 1px;
+    padding: 30px;
+    width: fit-content; 
+    border-radius: 10px;
+    background-color: grey
+}
+
+.title {
+    font-style: normal;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#name {
+    border: none;
+    border-bottom: solid gray ;
+}
+
+#name:focus {
+    outline: none;
+}
+
+#age {
+    border: none;
+    border-bottom: solid gray 1px;
+    width: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+#age:focus {
+    outline: none;
+}
+
+#course {
+    border: none;
+    border-bottom: solid gray 1px;
+    width: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#course:focus {
+    outline: none;
+}
+
+#email {
+    border: none;
+    border-bottom: solid gray 1px;
+    width: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+#email:focus {
+    outline: none;
+}
+
+#savebtn {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#output{
+    border-collapse: collapse;
+    width: 800px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#output td{
+    border: 1px solid black;
+}
+
+#output tr{
+    border: 1px solid black;
+}

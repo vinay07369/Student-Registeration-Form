@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registeration Form</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="maincontainer">
+        <h2 class="title">Welcome to Student Registeration Form</h2>
+
+        <div>
+            <table id="input">
+
+                <tr>
+                    <td>
+                        <h5>Name :</h5>
+                    </td>
+                    <td><input type="text" id="name"></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h5>Age :</h5>
+                    </td>
+                    <td><input type="text" id="age"></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h5>Gender :</h5>
+                    </td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male"> Male
+                        <input type="radio" id="female" name="gender" value="female"> Female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h5>Courses :</h5>
+                    </td>
+                    <td>
+                        <select name="course" id="course">
+                            <option value="" disabled selected hidden>Select a course</option>
+                            <option>Java</option>
+                            <option>Python</option>
+                            <option>SQL</option>
+                            <option>Webtech</option>
+                            <option>React JS</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h5>Email id :</h5>
+                    </td>
+                    <td>
+                        <input type="email" id="email">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h5>
+                            Contact no :
+                        </h5>
+                    </td>
+
+                    <td>
+                        <input type="tel" id="contact">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <button style="width: 100%;" id="savebtn" >Save</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <table id="output">
+        <tr>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Gender</td>
+            <td>Course</td>
+            <td>Email id</td>
+            <td>Contact</td>
+            <td>Action</td>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
